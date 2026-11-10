@@ -35,7 +35,7 @@ Use simplified source characters and natural modern conversational Mandarin. Sup
 
 Show pinyin only when it helps identify a particle, distinguish readings, or explain contextual pronunciation. Label nonstandard example sentences explicitly as incorrect or avoid them. Mark simplifications with words such as “usually” or “in this pattern” where needed; never turn a production shortcut into an absolute grammar rule.
 
-Traditional exports use OpenCC `s2t`. URLs and code are preserved; prose and Chinese examples are converted. Check context-dependent distinctions such as 发/發/髮, 后/後, and 里/裡. Do not change source text to fix a converter error without considering both editions; document and implement a targeted conversion override if one is needed. A traditional script edition preserves the Mandarin variety of the source.
+Traditional exports use OpenCC `s2t`. URLs and code are preserved; prose and Chinese examples are converted. Check context-dependent distinctions such as 发/發/髮, 后/後, and 里/裡. Do not change source text to fix a converter error without considering both editions. Add a narrowly targeted `traditional_overrides` object to the course JSON if needed: each key is erroneous converted text and its value is the editorial correction. Overrides apply to converted prose only; document their reason in the course's editorial notes. A traditional script edition preserves the Mandarin variety of the source.
 
 ## Build and review
 

@@ -1,18 +1,18 @@
 # Mandarin Grammar Refresher
 
-> First draft · Returning conversational speaker · Traditional characters (automatically converted; not regionally adapted)
+> Editorial draft · Returning conversational speaker · Traditional characters (automatically converted; not regionally adapted)
 
 ## How to use this refresher
 
-**For you if:** you once spoke Mandarin conversationally, recognize much of the vocabulary, and now lose the thread of sentences or struggle to assemble your own. Explanations assume a native English speaker's likely habits.
+**For you if:** you once spoke Mandarin conversationally and still recognize much of the vocabulary, but now struggle to parse sentences or assemble your own. Explanations target a native English speaker's likely habits.
 
 **Goal:** recover a usable grammar toolkit: find a sentence's backbone, attach its modifiers correctly, express time and results, and connect clauses without translating English word order.
 
-This is modern conversational Mandarin with broadly mainland usage. It is not a vocabulary course, tone tutorial, exhaustive grammar, or exam syllabus. This traditional-character edition is generated from the simplified source; the regional variety is unchanged. Examples use English translations rather than full pinyin so you can concentrate on structure.
+This is modern conversational Mandarin with broadly mainland usage. It skips beginner vocabulary and pronunciation instruction. This traditional-character edition is generated from the simplified source; the regional variety is unchanged. Examples have English translations; pinyin appears only where a reading needs clarification.
 
 **Fast pass:** read Sentence backbone, Time and aspect, and Complements; then do the parsing task. **Full pass:** work through the modules, say the examples aloud, and complete the two short application tasks. Revisit only the constructions that break down in use.
 
-**Notation:** S = subject; V = verb; O = object. A *complement* follows a verb or adjective and supplies a result, direction, degree, or similar information. Square brackets show chunks for analysis; they are not Chinese punctuation. A pattern is a useful default unless stated otherwise.
+**Notation:** S = subject; V = verb; O = object. A *complement* follows a verb or adjective and adds a result, direction, degree, or similar information. Square brackets mark chunks for analysis. Patterns are practical defaults, not exhaustive rules.
 
 ### Diagnostic: five minutes
 
@@ -24,7 +24,7 @@ Try these before reading. Check the Answer key afterward.
 4. Say “Please send me the address” using 把. (Moving the object)
 5. Compare **他們不都去** and **他們都不去**. (Questions and negation)
 
-If the words are familiar but these structures are hard, the core route is right for you. If unfamiliar vocabulary dominates, keep a dictionary nearby and substitute familiar nouns rather than stopping to memorize every example word.
+If unfamiliar vocabulary gets in the way, look it up or substitute familiar nouns. Keep the focus on structure.
 
 ## Sentence backbone
 
@@ -37,14 +37,14 @@ If the words are familiar but these structures are hard, the core route is right
 
 **Pitfall:** English often adds the setting afterward: “work at home.” In the ordinary Chinese setting pattern, use **在家工作**. A location after the verb can instead describe the endpoint or resulting location: **放在桌上**, put it on the table. Position changes the relationship; it is not arbitrary.
 
-Do not force every possible adverb into one rigid slot chart. Start with who, when, where/with whom, then what happened. Add more structure only when the message needs it.
+For production, build the simple clause first: who, when, where/with whom, then the action.
 
 ### Topics are what the sentence is about
 
 **Pattern:** topic + comment. The topic may be an object, a setting, or a larger category; the comment can have its own subject. Context also allows omitted subjects and objects.
 
-- **這家餐廳，我以前來過。** This restaurant, I've been here before.
-- **這件事，我還沒告訴她。** As for this matter, I haven't told her yet.
+- **這家餐廳，我以前來過。** I've been to this restaurant before.
+- **這件事，我還沒告訴她。** I haven't told her about this yet.
 
 **Pitfall:** the first noun is not necessarily the person doing the action. In the second example, 這件事 is what is being discussed; 我 is the subject of 告訴. Recover omitted material from context rather than inventing a new English-style subject for every clause.
 
@@ -52,10 +52,10 @@ Do not force every possible adverb into one rigid slot chart. Start with who, wh
 
 **Patterns:** A + 是 + noun phrase; S + degree word + adjective; place + 有 + thing; known thing + 在 + place.
 
-- **她是工程師，但最近很忙。** She's an engineer, but she's busy lately.
+- **她是工程師，最近很忙。** She's an engineer and has been busy lately.
 - **樓下有一家咖啡店。那家店在銀行旁邊。** There's a café downstairs. That café is next to the bank.
 
-**Pitfall:** do not insert 是 just because English uses “is.” **她很忙** describes her; **她是老師** identifies her. Unstressed 很 often makes a neutral adjective predicate sound natural; it need not mean an emphatic “very.” Bare adjectives can occur in contrasts and other contexts: **這個貴，那個便宜。** This one is expensive; that one is cheap.
+**Pitfall:** do not insert 是 just because English uses “is.” **她很忙** describes her; **她是工程師** identifies her. Unstressed 很 often makes a neutral adjective predicate sound natural; it need not mean an emphatic “very.” Bare adjectives can occur in contrasts and other contexts: **這個貴，那個便宜。** This one is expensive; that one is cheap.
 
 For negation: **不是** is not; **不忙** not busy; **沒有** there isn't / don't have; **不在** isn't at the location.
 
@@ -105,7 +105,7 @@ They are usually pronounced neutral **de** in these grammatical uses, but they a
 - **你把鑰匙放在哪兒了？** Where did you put the keys? Compare the answer: **我把鑰匙放在桌上了。** I put them on the table.
 - **你想今天去還是明天去？** Would you like to go today or tomorrow? **今天或者明天都可以。** Either today or tomorrow works.
 
-**Pitfall:** do not front-load 什麼 or 誰 by copying English question order. A neutral information question such as **你想喫什麼？** (What do you want to eat?) does not add 嗎. Likewise, choose **你去不去？** or **你去嗎？**, rather than combining both neutral question formats.
+**Pitfall:** keep the question word in the answer's slot: **你想喫什麼？** What do you want to eat? A subject question naturally starts with 誰: **誰想去？** Who wants to go? Neither needs 嗎. For a neutral yes/no question, choose **你去不去？** or **你去嗎？**, without combining the formats.
 
 **爲什麼** asks why; **怎麼** asks how, and can also express surprise or ask why: **你怎麼沒來？** How come you didn't come? **呢** can return the question to another topic: **我明天去。你呢？** I'm going tomorrow. What about you?
 
@@ -118,7 +118,7 @@ They are usually pronounced neutral **de** in these grammatical uses, but they a
 
 **Pitfall:** these are not simply present versus past negatives. **他昨天不想出門。** He didn't want to go out yesterday. The desire is negated with 不 despite the past time. For an event that did not happen, say **沒買**, not 沒買了 with completed-event 了. Other sentence-final uses of 了 are a separate issue.
 
-Use **別 + V** for “don't”: **彆着急。** Don't worry / don't rush. **別忘了帶鑰匙。** Don't forget to bring the keys. This fixed reminder also shows why “a negative can never appear with 了” would be a bad rule.
+Use **別 + V** for “don't”: **別着急。** Don't worry / don't rush. **別忘了帶鑰匙。** Don't forget to bring the keys. This fixed reminder also shows why “a negative can never appear with 了” would be a bad rule.
 
 ### Scope: what exactly does the negative cover?
 
@@ -127,7 +127,7 @@ Use **別 + V** for “don't”: **彆着急。** Don't worry / don't rush. **�
 - **他們不都住在北京。** Not all of them live in Beijing. **他們都不住在北京。** None of them live in Beijing.
 - **他不一定來。** He may or may not come. **他一定不來。** He definitely won't come.
 
-**Pitfall:** recognizing every word is insufficient if you flatten their order. Read adverbs as operators over the phrase that follows. In **我也不去** (I'm not going either), 也 adds another person to a negative claim; **我不再去** (I won't go anymore) negates further repetition.
+**Pitfall:** order determines scope: which claim is being added to, limited, or denied. **我也不去** means “I'm not going either”; **我不再去** means “I won't go anymore.”
 
 Question words can lose their question meaning in a construction such as **誰都知道。** Everyone knows. **我什麼都沒買。** I didn't buy anything. With negation and 都, do not translate 什麼 mechanically as a question.
 
@@ -144,7 +144,7 @@ Time expressions say **when**. Aspect presents an event as realized, experienced
 
 **Pitfall:** 了 is not an English past-tense ending. The second example places the event in the future. And **我看了那本書，但是沒看完。** I read that book, but didn't finish it. To state completion of the whole reading task, use 完.
 
-For a neutral denial of the event: **我沒看那本書。** I didn't read that book. For a question: **你看了沒有？** Did you read it? Bare **我買了書** can sound like part of a longer account; a specified object or further context often makes the message more complete.
+For a denial: **我沒看那本書。** I didn't read that book. For a question: **你看了沒有？** Did you read it? Past time alone does not require 了: **我小時候住在上海。** I lived in Shanghai as a child.
 
 ### Sentence-final 了: update the situation
 
@@ -157,6 +157,8 @@ For a neutral denial of the event: **我沒看那本書。** I didn't read that 
 
 **我餓了。** I'm hungry now. No completed action needs to be imagined. **快下雨了。** It's going to rain soon. Again, nothing has happened yet.
 
+For possession or availability, negate 有 with 沒有: **我沒有現金了。** I'm out of cash. “No longer” is not always 不...了.
+
 ### 過: experience, rather than an event report
 
 **Pattern:** V + 過 + O; negative 沒(有) + V + 過 + O. 過 presents an experience before the relevant reference time, often at least once.
@@ -166,31 +168,31 @@ For a neutral denial of the event: **我沒看那本書。** I didn't read that 
 
 **Pitfall:** **昨天我去了成都** reports a particular trip yesterday; **我去過成都** foregrounds having that experience. English “have” does not automatically call for 過: “I've lost my keys” would ordinarily be **我的鑰匙丟了**, an event/current problem, rather than a claim about prior experience.
 
-### 在 and 着: ongoing action versus maintained state
+### 在 and 着: ongoing actions and states
 
-**Patterns:** 在/正在 + V for action in progress; V + 着 for a maintained state or accompanying action. 着 is **zhe** here, not the **zháo** in 睡着 (fall asleep).
+**Patterns:** 在/正在 + V foregrounds an action in progress; V + 着 often presents a continuing state or background action. 着 is **zhe** here, not the **zháo** in 睡着 (fall asleep).
 
 - **她正在開門。門開着呢。** She's opening the door. The door is open.
 - **他戴着耳機工作。** He's working with headphones on.
 
 **Pitfall:** **開着** describes the open state in this context, not the motion of opening. Do not add 在 to every English “-ing”: adjective states and activities that Chinese presents differently need their own constructions. **我知道** means “I know”; it is not normally 正在知道.
 
-**我在看書呢。** I'm reading. 呢 can support an ongoing-scene reading, but it has other conversational uses too; it is not a universal progressive ending.
+**我在看書呢。** I'm reading. 呢 can reinforce an ongoing scene; it does not mark progression in every use. 着 can also accompany an ongoing activity, so the distinction is about focus, not simply “action versus no action.”
 
 ### Duration, frequency, and “still continuing”
 
-**Defaults:** time-when before the action; duration generally after the verb; occurrence counts use 次. With an object, a repeated verb is often a clear way to attach duration.
+**Defaults:** put time-when before the action and duration after the verb. With an object, repeating the verb is one clear way to attach duration. 次 counts occurrences; 遍 counts complete passes through material.
 
 - **我昨天看書看了兩個小時。** I read for two hours yesterday.
-- **我學中文學了三年了。** I've been studying Chinese for three years now.
+- **我已經學了三年中文了。** I've been studying Chinese for three years now.
 
-**Pitfall:** distinguish **三年前** (three years ago), **三年** (for three years), and **三次** (three times). In the second example, final 了 helps present the accumulated duration as continuing to now. Compare **我以前學過三年中文。** I previously studied Chinese for three years. Do not mechanically apply English present-perfect forms.
+**Pitfall:** distinguish **三年前** (three years ago), **三年** (for three years), and **三次** (three times). The second example normally suggests study continuing to now. Final 了 relates the accumulated duration to the present; context determines whether study continues. Compare **我以前學過三年中文。** I previously studied Chinese for three years.
 
-**等了十分鐘** means waited ten minutes; **十分鐘以後再來** means come again after ten minutes. If duration placement becomes awkward, simplify the sentence before adding objects and extra modifiers.
+**看了兩次** means read/looked at it twice; **看了兩遍** specifies two passes from beginning to end. Neither guarantees understanding. **十分鐘以後再來** means come back in ten minutes, not stay for ten minutes.
 
 ## Complements
 
-Treat the verb and what follows it as a package. This is often the missing step when all the individual words are familiar but the sentence remains hard to parse.
+Read the verb and its complement together before translating. 聽懂, 聽得懂, and 聽不懂 make different claims.
 
 ### Result: what did the action achieve?
 
@@ -210,9 +212,9 @@ Treat the verb and what follows it as a package. This is often the missing step 
 - **你說慢一點兒，我就聽得懂。** If you speak a little more slowly, I can understand.
 - **這個箱子太大，放不進去。** This box is too big; it won't fit inside.
 
-**Pitfall:** **沒聽懂** says understanding did not happen; **聽不懂** says the speech is beyond what the listener can understand in that context. **不能聽** instead says listening is not possible or not allowed, depending on context. It does not specifically identify failure to understand.
+**Pitfall:** **沒聽懂** reports that understanding did not happen; **聽不懂** says you cannot make sense of it under the current conditions. **聽不見** means you cannot hear it. **不能聽** concerns the possibility or permission to listen, without specifically identifying failure to understand.
 
-**今天做不完。** It can't all be finished today. Compare **今天不做完**: not finishing it today, for example as a choice in a suitable context. Moving 不 changes what is denied.
+Compare **這份報告我今天寫不完。** I can't finish this report today. **這份報告我今天不寫，明天再寫。** I'm not writing this report today; I'll write it tomorrow. Inability to achieve a result differs from deciding not to act.
 
 ### Degree and manner: how well, how far, with what effect?
 
@@ -232,7 +234,7 @@ The 得 in **聽得懂** marks potential, while **說得很清楚** evaluates cl
 - **外面太冷了，快進來。** It's too cold outside; come in.
 - **請把這把椅子搬出去。** Please move this chair out.
 
-**Pitfall:** “in” alone does not choose 來 versus 去; viewpoint matters. With a place object, the place normally comes before the final 來/去: **走進教室來**, walk into the classroom toward the viewpoint. Object placement with these complements has several patterns; the 把 construction is often a practical way to avoid a crowded verb phrase.
+**Pitfall:** choose 來/去 by viewpoint, not by the English word “in.” With a place object, put the place before the final 來/去: **走進教室來**, walk into the classroom toward the viewpoint. With an object being moved, 把 often keeps the structure clear, as in the chair example.
 
 Direction also extends beyond physical movement: **想起來了** means remembered; **繼續說下去** means keep speaking. Learn these as meaning-bearing chunks rather than translating each character literally.
 
@@ -247,7 +249,7 @@ Direction also extends beyond physical movement: **想起來了** means remember
 
 **Pitfall:** 把 is not a generic object marker for every transitive sentence. A safe production strategy is a known/specified object and a concrete outcome. **把門關上** (close the door) and **把書放在桌上** (put the book on the table) are useful packages. Verbs such as 喜歡 do not ordinarily describe this kind of handling: **我喜歡這本書。** I like this book.
 
-Place the relevant negation or modal before 把: **別把手機忘在車裏。** Don't leave your phone in the car. A bare verb after the object often feels incomplete; tell the listener what happens to it. This is a default, not a claim that result complements are the only possible continuation.
+Place the clause-level negation or modal before 把: **別把手機忘在車裏。** Don't leave your phone in the car. A bare verb after the object often feels incomplete; add a result, destination, or other elaboration. **把這段話讀一下。** Take a moment to read this passage. 一下 elaborates the action without naming a result.
 
 ### 被: foreground the affected participant
 
@@ -266,12 +268,12 @@ For a negative: **門沒被鎖上。** The door wasn't locked. Recognize convers
 
 **Patterns:** A + 比 + B + adjective; A + 沒有 + B + adjective; A + 跟 + B + 一樣 + adjective. Put an exact difference after the adjective.
 
-- **這條路比那條近兩公里。** This route is two kilometers shorter than that one.
+- **這條路比那條短兩公里。** This route is two kilometers shorter than that one.
 - **今天沒有昨天那麼冷。** Today isn't as cold as yesterday. **這間房跟那間一樣大。** This room is as big as that one.
 
 **Pitfall:** use **比以前好得多** (much better than before), not 比以前很好 for the ordinary comparative. **不比** denies being more; **沒有** states falling short: **他不比我高** says he isn't taller than me, allowing equal height; **他沒有我高** says he isn't as tall as me.
 
-**越來越 + adjective** expresses change over time: **天氣越來越熱。** The weather is getting hotter. **越 A 越 B** links two changing quantities: **越練越熟。** The more you practice, the more familiar it becomes.
+**越來越 + adjective** expresses change over time: **天氣越來越熱。** The weather is getting hotter. **越 A 越 B** links variation in A to variation in B: **越說越流利。** The more you speak, the more fluent you become.
 
 ### 會, 能, 可以, 想, 要: choose the relationship
 
@@ -293,7 +295,7 @@ For “don't need to,” use **不用** or **不必**: **你不用等我。** Yo
 - **他七點就到了，我九點纔到。** He arrived as early as seven; I didn't arrive until nine.
 - **十分鐘就夠了。** Ten minutes is enough. **我纔等了十分鐘。** I've only waited ten minutes.
 
-**Pitfall:** 才 does not always mean “late” or “a large amount.” With a small quantity it can mean “only,” as in the second example. Do not assign either character one English translation. Read the time, condition, or quantity it comments on.
+**Pitfall:** 才 can mark a late threshold or a surprisingly small quantity. Compare “not until nine” with “only ten minutes.” Read the time or quantity it comments on; neither 才 nor 就 has one fixed English translation.
 
 **一到家就給我打電話。** Call me as soon as you get home. Here 一...就... links an immediate sequence; it is not a count of one phone call.
 
@@ -306,16 +308,16 @@ For “don't need to,” use **不用** or **不必**: **你不用等我。** Yo
 
 **Pitfall:** 又 and 再 are not fixed past and future tense markers. **明天又是星期一。** Tomorrow it's Monday again. It presents a recurring situation even though it is future. Use construction and perspective, rather than an English tense rule.
 
-**先喫飯，再討論。** Eat first, then discuss it. 再 here orders a next step. **還要一杯水。** I'd also like another glass of water. 還 is hái in these uses; huán means return/give back in a different lexical use.
+**先喫飯，再討論。** Eat first, then discuss it. 再 here orders a next step. **還要一杯水。** I'd also like a glass of water. 還 adds an item; that need not mean a second glass of water. It is hái here; huán means return/give back in a different lexical use.
 
 ### Connect the logic of clauses
 
 **Useful pairs:** 因爲...所以... because/therefore; 雖然...但是... although/but; 如果/要是...就... if/then; 只要...就... provided/then; 只有...才... only if/only then.
 
 - **雖然很忙，但是我還是想去。** Although I'm busy, I still want to go.
-- **只要有時間，我就去。只有週末，我纔有時間。** If I have time, I'll go. Only on weekends do I have time.
+- **只要有時間，我就去。只有週末，我纔有時間。** As long as I have time, I'll go. I only have time on weekends.
 
-**Pitfall:** unlike standard English “although ... but ...,” Chinese commonly allows both halves of these pairs. Either half can also be omitted when the relation is clear. Do not confuse **只要**, a sufficient condition in the intended situation, with **只有**, a necessary condition.
+**Pitfall:** Chinese commonly uses both halves of 因爲...所以... and 雖然...但是..., unlike their usual English translations. One half can be omitted when the relation is clear. **只要** makes its condition sufficient: having time is enough for me to go. **只有** makes its condition necessary: being a weekend is required for me to have time.
 
 For ordinary sentences, connect nouns with 和/跟, and clauses with an appropriate connector or a pause: **我買了菜，然後回家做飯。** I bought groceries, then went home to cook. Do not use 和 as the default English “and” between full clauses. **一邊做飯一邊聽播客。** Cook while listening to a podcast: two simultaneous activities.
 
@@ -326,7 +328,7 @@ For ordinary sentences, connect nouns with 和/跟, and clauses with an appropri
 - **我是去年搬來的。** It was last year that I moved here.
 - **這張照片是我朋友拍的。** This photo was taken by my friend. (Focus on who took it.)
 
-**Pitfall:** this construction is not a replacement for past tense. **我去年搬來了** reports the move; **我是去年搬來的** highlights when. Other 是...的 sentences can make emphatic assertions and need not be past events: **他是會來的。** He really will come. Use the detail-focus pattern first; do not force every occurrence into it.
+**Pitfall:** **我去年搬來了** reports the move; **我是去年搬來的** highlights when. To deny the focused detail, retain 是: **我不是去年搬來的，是前年。** I moved here the year before last, not last year. A different emphatic 是...的 pattern can concern the future: **他是會來的。** He really will come. Do not treat 是...的 as a past-tense ending.
 
 ### Small forms that make speech usable
 
@@ -339,12 +341,12 @@ For ordinary sentences, connect nouns with 和/跟, and clauses with an appropri
 
 ### Contextual pronunciation worth recognizing
 
-No tone drills are needed here. Keep just these connections between spelling and function in mind:
+These readings help connect a familiar character to its grammatical role:
 
-- **不** is normally bù, but becomes bú before a fourth-tone syllable in connected speech: **不是** bú shì. **一** changes in many connected contexts: **一天** yì tiān; **一個** yí ge (個 is commonly neutral here, with an underlying fourth tone). Counting and ordinal uses often retain yī. Pinyin in dictionaries may show underlying tones.
-- **了** is neutral le as the particle, but liǎo in forms such as **瞭解** liǎojiě (understand) and **受不了** shòu bu liǎo (can't stand it). **得** is neutral de in complements, děi in **我得走了** (I have to go), and dé in **得到** (obtain).
+- **不** is normally bù; before a fourth tone it becomes bú: **不是** bú shì. **一** changes in many connected contexts: **一天** yì tiān; **一個** yí ge (個 is commonly neutral, with an underlying fourth tone). Counting and ordinals often retain yī. In **去不去** qù bu qù and **看一看** kàn yi kàn, the middle syllable is commonly neutral. Dictionaries may show underlying tones.
+- **了** is neutral le as a particle, but liǎo in **受不了** shòu bu liǎo (can't stand it). **得** is neutral de in complements, děi in **我得走了** (I have to go), and dé in **得到** (obtain).
 
-**Pitfall:** a familiar character does not guarantee the same grammatical role or reading. Third-tone changes and neutral-tone patterns still occur normally; they are outside this grammar review's teaching scope.
+**Pitfall:** identical characters can have different readings within one sentence. In Task 2, **去不了了** is qù bu liǎo le: “cannot go” plus a situation update.
 
 ## Apply it
 
@@ -354,7 +356,7 @@ Spend five to ten minutes on this paragraph. Bracket the long noun phrase, ident
 
 **我昨天在地鐵上看的那篇文章，你看完了嗎？我看了兩遍，還是有幾句看不懂。你要是有時間，就把最難的那一段給我解釋一下吧。**
 
-Success means you can explain what the speaker read, what remains difficult, and what help they request. Merely replacing each word with English is not enough.
+Check that you can explain what the speaker read, what remains difficult, and what help they request.
 
 ### Task 2: recover a useful message
 
@@ -365,7 +367,7 @@ Write or say a six-to-eight-sentence message to a friend. You planned to meet to
 - A conditional proposal.
 - A request to send you the address, and a statement about what to do on arrival.
 
-Spend ten minutes, then compare with the model. Different wording is welcome. Check whether a listener could reconstruct your plan, the obstacle, and the requested next steps. If not, repair those relationships before polishing vocabulary.
+Spend ten minutes, then compare with the model. Different wording is welcome. A listener should be able to reconstruct your plan, the obstacle, and the requested next steps.
 
 ## Answer key
 
@@ -385,7 +387,7 @@ Spend ten minutes, then compare with the model. Different wording is welcome. Ch
 
 **你要是有時間，就把最難的那一段給我解釋一下吧。** 要是...就... gives a condition and requested response. 把 marks the particular paragraph to be explained. **給我** identifies the person receiving the explanation. 一下 limits the request, and 吧 softens it.
 
-“Have you finished the article I was reading on the subway yesterday? I've read it twice, but there are still a few sentences I can't understand. If you have time, could you explain the hardest paragraph to me?”
+“Have you finished reading the article I read on the subway yesterday? I've read it twice, but there are still a few sentences I can't understand. If you have time, could you explain the hardest paragraph to me?”
 
 ### Task 2 model
 
@@ -409,13 +411,13 @@ Notice **才** marking a late time, **沒寫完** denying an achieved result, **
 
 | What you want to say | Useful pattern |
 | --- | --- |
-| An event happened | V + 了; time comes from context |
+| Present an event as realized | V + 了; not required for every past event |
 | A situation has changed | Clause + 了 |
 | Something did not happen | 沒(有) + V |
-| Something is no longer the case | 不 + predicate + 了 |
+| No longer / no longer have | 不 + predicate + 了 / 沒有 + noun + 了 |
 | You have prior experience | V + 過 |
 | An action is in progress | 在/正在 + V |
-| A state is maintained | V + 着 |
+| State / background activity | V + 着 |
 | An action achieved a result | V + result |
 | A result cannot be achieved | V + 不 + result |
 | You describe performance | V + 得 + description |
@@ -430,11 +432,13 @@ After reading, make one personal sentence for each pair: 不/沒; 了/過; 在/�
 
 ## Sources and further review
 
-This is an original teaching draft with original examples, not an adaptation of one textbook. The following teaching references were consulted to check selected distinctions and provide a route to fuller explanations. Language instruction benefits from a teacher's judgment about context and naturalness; this draft has not yet received that review.
+This original teaching draft received an editorial pass for accuracy, example naturalness, translation, and density on 2026-11-10. It has not received independent human language review. These teaching references support further study and the distinctions checked during revision.
 
 - University of Oxford, Centre for Teaching Chinese as a Foreign Language, [grammar database index](https://www.ctcfl.ox.ac.uk/materials_lang-work_grammar-database_grammar-database-page/). Further explanations of aspect, complements, word order, and related constructions.
-- Oxford CTCFL, [the 得 construction](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_verb-de/): descriptive complements and placement of verb objects; [the 把 construction](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_ba/): affected objects and elaborated verb phrases; [comparatives](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_comparatives/): 比, 沒有, and 一樣.
+- Oxford CTCFL, [the 得 construction](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_verb-de/) and [potential complements](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_pvc/): object placement, descriptive versus potential 得, and negation; [the 把 construction](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_ba/): affected objects and elaborated verb phrases; [comparatives](https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_comparatives/): 比, 沒有, and 一樣.
+- Palacký University Olomouc, ChinGram, [teacher's guide to 着/著](https://chingram.upol.cz/grammar/aspectual-particle-zhe-%E7%9D%80/teachers-guide-%E7%9D%80-%E8%91%97): persistent states, accompanying actions, and the contrast with 在.
+- Education University of Hong Kong, [tone sandhi of 一](https://corpus.eduhk.hk/mandarin_pronunciation/?page_id=1286): contextual tone changes, with recorded examples.
 - Cheng & Tsui, *Integrated Chinese*, third edition, Level 1 Part 1, [publisher's lesson sample](https://www.cheng-tsui.com/sites/default/files/previews/IC%203e%201-1%20Textbook%20Web%20Sample%20L5_7.pdf), grammar discussion of 了: why it is not a past-tense marker, including future event sequences.
 - [OpenCC project](https://github.com/BYVoid/OpenCC): the tool used for the optional traditional-character edition. Automated script conversion does not establish regional usage or linguistic review.
 
-References checked 2026-11-09. Editorial next step: a Mandarin instructor or proficient native speaker should review example naturalness, the 了 contrasts, complement interpretations, and traditional conversion before the course is marked reviewed.
+The initial references were checked on 2026-11-09; the editorial pass added targeted checks on 2026-11-10. Human language review remains the next step before marking the course independently reviewed.

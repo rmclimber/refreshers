@@ -10,7 +10,7 @@ The aim is to restore a working mental model, recall the constructions that matt
 | --- | --- | --- | --- |
 | Mandarin grammar | Native English speaker returning to previously conversational Mandarin | [Markdown](courses/mandarin-grammar/course.md) · [HTML](output/html/mandarin-grammar-simplified.html) | [Simplified PDF](output/pdf/mandarin-grammar-simplified.pdf) · [Traditional PDF](output/pdf/mandarin-grammar-traditional.pdf) |
 
-The first course is a complete **first draft**, not yet reviewed by a Mandarin instructor. It focuses on grammar and sentence parsing, uses simplified characters as its source, and skips beginner pronunciation instruction. The traditional edition is generated and should receive its own language review.
+The first course is an **editorially revised draft** (0.2), not yet independently reviewed by a Mandarin instructor. It focuses on grammar and sentence parsing, uses simplified characters as its source, and skips beginner pronunciation instruction. The traditional edition is generated and should receive its own language review.
 
 ## Project documents
 

@@ -14,7 +14,7 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def traditional(text):
+def traditional(text, overrides=None):
     try:
         from opencc import OpenCC
     except ImportError as exc:
@@ -29,8 +29,14 @@ def traditional(text):
         r"\]\([^\n)]*\)|https?://[^\s<>]+)"
     )
     parts = protected.split(text)
+    def convert_prose(part):
+        result = converter.convert(part)
+        for before, after in (overrides or {}).items():
+            result = result.replace(before, after)
+        return result
+
     converted = "".join(
-        part if i % 2 else converter.convert(part)
+        part if i % 2 else convert_prose(part)
         for i, part in enumerate(parts)
     )
     converted = converted.replace(
@@ -65,7 +71,7 @@ def build(args):
     if args.script == "traditional":
         if not metadata.get("cjk"):
             raise RuntimeError("Traditional conversion is only enabled for CJK courses.")
-        text = traditional(text)
+        text = traditional(text, metadata.get("traditional_overrides"))
     formats = ["markdown", "html", "pdf"] if args.format == "all" else [args.format]
     pandoc = shutil.which("pandoc")
     if any(f != "markdown" for f in formats) and not pandoc:
