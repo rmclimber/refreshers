@@ -1,0 +1,20 @@
+% Shared presentation only; course content stays in Markdown.
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily Refreshers}
+\fancyhead[R]{\small\sffamily Recovering working knowledge}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\raggedbottom
+\setlength{\emergencystretch}{3em}
+% Smart English quotes must retain Latin spacing beside Latin letters.
+\ifdefined\xeCJKDeclareCharClass
+  \xeCJKDeclareCharClass{Default}{"2018,"2019,"201C,"201D}
+\fi
+\pretocmd{\section}{\Needspace{6\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
+\apptocmd{\tableofcontents}{\clearpage}{}{}

@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10.2" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Mandarin Grammar Refresher</title>
+  <style>
+
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root { color-scheme: light; --ink: #243444; --accent: #17675f; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0 auto; max-width: 53rem; padding: 2rem 1.5rem 5rem;
+color: var(--ink); background: #fcfcf9; font: 1.06rem/1.75 system-ui,
+"Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans CJK TC", sans-serif;
+overflow-wrap: break-word; }
+h1, h2, h3 { line-height: 1.3; color: #163e43; }
+h1 { font-size: 2.35rem; margin: 1.5rem 0; }
+h1:not(.title) { font-size: 1.6rem; margin-top: 3rem; border-top: 2px solid #d6e6df; padding-top: 1.2rem; }
+h2 { font-size: 1.22rem; margin-top: 2rem; }
+h3 { font-size: 1.22rem; margin-top: 2rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:focus-visible { outline: 3px solid #b38325; outline-offset: 3px; }
+blockquote { margin: 1.5rem 0; border-left: 4px solid #7aab9c; padding: .3rem 1rem; color: #52615e; }
+nav { padding: 1rem 1.4rem; background: #edf3ee; border-radius: .3rem; }
+nav ul { padding-left: 1.3rem; }
+nav > ul { margin: .3rem 0; }
+nav li { margin: .2rem 0; }
+li { margin: .5rem 0; }
+table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: .95rem; }
+th, td { border-bottom: 1px solid #ccd7d2; text-align: left; vertical-align: top; padding: .6rem; }
+th { background: #edf3ee; }
+code { font-size: .9em; background: #edf3ee; padding: .1rem .3rem; }
+@media (max-width: 480px) { body { padding: 1rem; } h1 { font-size: 1.9rem; }
+th, td { padding: .35rem; } }
+@media print { body { max-width: none; padding: 0; background: white; font-size: 11pt; }
+nav { display: none; } h2, h3 { break-after: avoid; } tr { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Mandarin Grammar Refresher</h1>
+<p class="subtitle">Recovering conversational grammar</p>
+<p class="date">0.1-draft | 2026-11-09</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#how-to-use-this-refresher" id="toc-how-to-use-this-refresher">How to use this refresher</a>
+<ul>
+<li><a href="#diagnostic-five-minutes" id="toc-diagnostic-five-minutes">Diagnostic: five minutes</a></li>
+</ul></li>
+<li><a href="#sentence-backbone" id="toc-sentence-backbone">Sentence
+backbone</a>
+<ul>
+<li><a href="#put-the-setting-before-the-action" id="toc-put-the-setting-before-the-action">Put the setting before the
+action</a></li>
+<li><a href="#topics-are-what-the-sentence-is-about" id="toc-topics-are-what-the-sentence-is-about">Topics are what the
+sentence is about</a></li>
+<li><a href="#identity-description-and-existence-use-different-tools" id="toc-identity-description-and-existence-use-different-tools">Identity,
+description, and existence use different tools</a></li>
+</ul></li>
+<li><a href="#noun-phrases" id="toc-noun-phrases">Noun phrases</a>
+<ul>
+<li><a href="#put-descriptions-before-the-noun-with-的" id="toc-put-descriptions-before-the-noun-with-的">Put descriptions
+before the noun with 的</a></li>
+<li><a href="#quantities-need-classifiers" id="toc-quantities-need-classifiers">Quantities need
+classifiers</a></li>
+<li><a href="#keep-的-地-and-得-separate" id="toc-keep-的-地-and-得-separate">Keep 的, 地, and 得
+separate</a></li>
+</ul></li>
+<li><a href="#questions-and-negation" id="toc-questions-and-negation">Questions and negation</a>
+<ul>
+<li><a href="#ask-without-moving-the-question-word" id="toc-ask-without-moving-the-question-word">Ask without moving the
+question word</a></li>
+<li><a href="#不-and-没-deny-different-things" id="toc-不-and-没-deny-different-things">不 and 没 deny different
+things</a></li>
+<li><a href="#scope-what-exactly-does-the-negative-cover" id="toc-scope-what-exactly-does-the-negative-cover">Scope: what exactly
+does the negative cover?</a></li>
+</ul></li>
+<li><a href="#time-and-aspect" id="toc-time-and-aspect">Time and
+aspect</a>
+<ul>
+<li><a href="#verb-了-present-an-event-as-realized" id="toc-verb-了-present-an-event-as-realized">Verb 了: present an event
+as realized</a></li>
+<li><a href="#sentence-final-了-update-the-situation" id="toc-sentence-final-了-update-the-situation">Sentence-final 了:
+update the situation</a></li>
+<li><a href="#过-experience-rather-than-an-event-report" id="toc-过-experience-rather-than-an-event-report">过: experience,
+rather than an event report</a></li>
+<li><a href="#在-and-着-ongoing-action-versus-maintained-state" id="toc-在-and-着-ongoing-action-versus-maintained-state">在 and 着:
+ongoing action versus maintained state</a></li>
+<li><a href="#duration-frequency-and-still-continuing" id="toc-duration-frequency-and-still-continuing">Duration, frequency,
+and “still continuing”</a></li>
+</ul></li>
+<li><a href="#complements" id="toc-complements">Complements</a>
+<ul>
+<li><a href="#result-what-did-the-action-achieve" id="toc-result-what-did-the-action-achieve">Result: what did the action
+achieve?</a></li>
+<li><a href="#potential-can-the-result-be-achieved" id="toc-potential-can-the-result-be-achieved">Potential: can the result
+be achieved?</a></li>
+<li><a href="#degree-and-manner-how-well-how-far-with-what-effect" id="toc-degree-and-manner-how-well-how-far-with-what-effect">Degree and
+manner: how well, how far, with what effect?</a></li>
+<li><a href="#direction-movement-relative-to-a-viewpoint" id="toc-direction-movement-relative-to-a-viewpoint">Direction: movement
+relative to a viewpoint</a></li>
+</ul></li>
+<li><a href="#moving-the-object" id="toc-moving-the-object">Moving the
+object</a>
+<ul>
+<li><a href="#把-foreground-what-happens-to-a-particular-thing" id="toc-把-foreground-what-happens-to-a-particular-thing">把: foreground
+what happens to a particular thing</a></li>
+<li><a href="#被-foreground-the-affected-participant" id="toc-被-foreground-the-affected-participant">被: foreground the
+affected participant</a></li>
+</ul></li>
+<li><a href="#comparisons-and-modals" id="toc-comparisons-and-modals">Comparisons and modals</a>
+<ul>
+<li><a href="#compare-along-a-stated-dimension" id="toc-compare-along-a-stated-dimension">Compare along a stated
+dimension</a></li>
+<li><a href="#会-能-可以-想-要-choose-the-relationship" id="toc-会-能-可以-想-要-choose-the-relationship">会, 能, 可以, 想, 要:
+choose the relationship</a></li>
+</ul></li>
+<li><a href="#connectors-and-conversational-framing" id="toc-connectors-and-conversational-framing">Connectors and
+conversational framing</a>
+<ul>
+<li><a href="#就-and-才-timing-thresholds-and-expectations" id="toc-就-and-才-timing-thresholds-and-expectations">就 and 才: timing,
+thresholds, and expectations</a></li>
+<li><a href="#又-再-还-已经-orient-the-event" id="toc-又-再-还-已经-orient-the-event">又, 再, 还, 已经: orient the
+event</a></li>
+<li><a href="#connect-the-logic-of-clauses" id="toc-connect-the-logic-of-clauses">Connect the logic of
+clauses</a></li>
+<li><a href="#是的-focus-on-a-detail" id="toc-是的-focus-on-a-detail">是…的: focus on a detail</a></li>
+<li><a href="#small-forms-that-make-speech-usable" id="toc-small-forms-that-make-speech-usable">Small forms that make
+speech usable</a></li>
+<li><a href="#contextual-pronunciation-worth-recognizing" id="toc-contextual-pronunciation-worth-recognizing">Contextual
+pronunciation worth recognizing</a></li>
+</ul></li>
+<li><a href="#apply-it" id="toc-apply-it">Apply it</a>
+<ul>
+<li><a href="#task-1-parse-before-translating" id="toc-task-1-parse-before-translating">Task 1: parse before
+translating</a></li>
+<li><a href="#task-2-recover-a-useful-message" id="toc-task-2-recover-a-useful-message">Task 2: recover a useful
+message</a></li>
+</ul></li>
+<li><a href="#answer-key" id="toc-answer-key">Answer key</a>
+<ul>
+<li><a href="#diagnostic" id="toc-diagnostic">Diagnostic</a></li>
+<li><a href="#task-1-model" id="toc-task-1-model">Task 1 model</a></li>
+<li><a href="#task-2-model" id="toc-task-2-model">Task 2 model</a></li>
+</ul></li>
+<li><a href="#quick-reference" id="toc-quick-reference">Quick
+reference</a>
+<ul>
+<li><a href="#a-parsing-routine" id="toc-a-parsing-routine">A parsing
+routine</a></li>
+<li><a href="#choose-the-construction-by-the-message" id="toc-choose-the-construction-by-the-message">Choose the construction
+by the message</a></li>
+<li><a href="#recover-by-producing-contrasts" id="toc-recover-by-producing-contrasts">Recover by producing
+contrasts</a></li>
+</ul></li>
+<li><a href="#sources-and-further-review" id="toc-sources-and-further-review">Sources and further review</a></li>
+</ul>
+</nav>
+<blockquote>
+<p>First draft · Returning conversational speaker · Simplified
+characters</p>
+</blockquote>
+<h1 id="how-to-use-this-refresher">How to use this refresher</h1>
+<p><strong>For you if:</strong> you once spoke Mandarin
+conversationally, recognize much of the vocabulary, and now lose the
+thread of sentences or struggle to assemble your own. Explanations
+assume a native English speaker’s likely habits.</p>
+<p><strong>Goal:</strong> recover a usable grammar toolkit: find a
+sentence’s backbone, attach its modifiers correctly, express time and
+results, and connect clauses without translating English word order.</p>
+<p>This is modern conversational Mandarin with broadly mainland usage.
+It is not a vocabulary course, tone tutorial, exhaustive grammar, or
+exam syllabus. Traditional characters can be generated from this
+edition; that changes the script, not the regional variety. Examples use
+English translations rather than full pinyin so you can concentrate on
+structure.</p>
+<p><strong>Fast pass:</strong> read Sentence backbone, Time and aspect,
+and Complements; then do the parsing task. <strong>Full pass:</strong>
+work through the modules, say the examples aloud, and complete the two
+short application tasks. Revisit only the constructions that break down
+in use.</p>
+<p><strong>Notation:</strong> S = subject; V = verb; O = object. A
+<em>complement</em> follows a verb or adjective and supplies a result,
+direction, degree, or similar information. Square brackets show chunks
+for analysis; they are not Chinese punctuation. A pattern is a useful
+default unless stated otherwise.</p>
+<h2 id="diagnostic-five-minutes">Diagnostic: five minutes</h2>
+<p>Try these before reading. Check the Answer key afterward.</p>
+<ol type="1">
+<li>Parse <strong>我昨天在地铁上看的那篇文章很有意思。</strong> What is
+the main claim? Which words belong inside the noun phrase? (Noun
+phrases)</li>
+<li>Explain the difference between <strong>我没去</strong> and
+<strong>我不去了</strong>. (Questions and negation; Time and
+aspect)</li>
+<li>Explain the difference between <strong>我看了那份报告</strong>,
+<strong>我看完了那份报告</strong>, and
+<strong>我看不懂那份报告</strong>. (Time and aspect; Complements)</li>
+<li>Say “Please send me the address” using 把. (Moving the object)</li>
+<li>Compare <strong>他们不都去</strong> and <strong>他们都不去</strong>.
+(Questions and negation)</li>
+</ol>
+<p>If the words are familiar but these structures are hard, the core
+route is right for you. If unfamiliar vocabulary dominates, keep a
+dictionary nearby and substitute familiar nouns rather than stopping to
+memorize every example word.</p>
+<h1 id="sentence-backbone">Sentence backbone</h1>
+<h2 id="put-the-setting-before-the-action">Put the setting before the
+action</h2>
+<p><strong>Default:</strong> S + time + place / other circumstances + V
++ O. Time can also precede S. Chinese verbs do not change form to mark
+English-style tense or agreement.</p>
+<ul>
+<li><strong>我明天在家工作。</strong> I’ll work at home tomorrow.</li>
+<li><strong>昨天她跟同事一起吃饭。</strong> Yesterday she ate with her
+colleagues.</li>
+</ul>
+<p><strong>Pitfall:</strong> English often adds the setting afterward:
+“work at home.” In the ordinary Chinese setting pattern, use
+<strong>在家工作</strong>. A location after the verb can instead
+describe the endpoint or resulting location: <strong>放在桌上</strong>,
+put it on the table. Position changes the relationship; it is not
+arbitrary.</p>
+<p>Do not force every possible adverb into one rigid slot chart. Start
+with who, when, where/with whom, then what happened. Add more structure
+only when the message needs it.</p>
+<h2 id="topics-are-what-the-sentence-is-about">Topics are what the
+sentence is about</h2>
+<p><strong>Pattern:</strong> topic + comment. The topic may be an
+object, a setting, or a larger category; the comment can have its own
+subject. Context also allows omitted subjects and objects.</p>
+<ul>
+<li><strong>这家餐厅，我以前来过。</strong> This restaurant, I’ve been
+here before.</li>
+<li><strong>这件事，我还没告诉她。</strong> As for this matter, I
+haven’t told her yet.</li>
+</ul>
+<p><strong>Pitfall:</strong> the first noun is not necessarily the
+person doing the action. In the second example, 这件事 is what is being
+discussed; 我 is the subject of 告诉. Recover omitted material from
+context rather than inventing a new English-style subject for every
+clause.</p>
+<h2 id="identity-description-and-existence-use-different-tools">Identity,
+description, and existence use different tools</h2>
+<p><strong>Patterns:</strong> A + 是 + noun phrase; S + degree word +
+adjective; place + 有 + thing; known thing + 在 + place.</p>
+<ul>
+<li><strong>她是工程师，但最近很忙。</strong> She’s an engineer, but
+she’s busy lately.</li>
+<li><strong>楼下有一家咖啡店。那家店在银行旁边。</strong> There’s a café
+downstairs. That café is next to the bank.</li>
+</ul>
+<p><strong>Pitfall:</strong> do not insert 是 just because English uses
+“is.” <strong>她很忙</strong> describes her; <strong>她是老师</strong>
+identifies her. Unstressed 很 often makes a neutral adjective predicate
+sound natural; it need not mean an emphatic “very.” Bare adjectives can
+occur in contrasts and other contexts:
+<strong>这个贵，那个便宜。</strong> This one is expensive; that one is
+cheap.</p>
+<p>For negation: <strong>不是</strong> is not; <strong>不忙</strong> not
+busy; <strong>没有</strong> there isn’t / don’t have;
+<strong>不在</strong> isn’t at the location.</p>
+<h1 id="noun-phrases">Noun phrases</h1>
+<h2 id="put-descriptions-before-the-noun-with-的">Put descriptions
+before the noun with 的</h2>
+<p><strong>Pattern:</strong> modifier + 的 + noun. The modifier can be
+an owner, a description, or a whole clause. Chinese puts a relative
+clause before the noun it identifies.</p>
+<ul>
+<li><strong>我昨天买的手机已经坏了。</strong> The phone I bought
+yesterday has already broken.</li>
+<li><strong>坐在窗边的那个人是我同事。</strong> The person sitting by
+the window is my colleague.</li>
+</ul>
+<p><strong>Pitfall:</strong> English makes you expect “the person who
+…”; Chinese makes you wait for 人. In
+<strong>[坐在窗边的]那个人</strong>, the whole bracket describes the
+person. Find the noun after 的 before deciding what the main sentence
+says.</p>
+<p>的 is often omitted in close relationships (<strong>我妈妈</strong>,
+my mother) and established compact descriptions
+(<strong>中文书</strong>, Chinese-language book). With a longer
+identifying clause, keeping 的 is the safe default. If the noun is
+understood, it can disappear: <strong>红的</strong> means the red
+one(s).</p>
+<h2 id="quantities-need-classifiers">Quantities need classifiers</h2>
+<p><strong>Patterns:</strong> number + classifier + noun; 这/那 +
+classifier + noun. Classifiers categorize what is being counted; 个 is
+common but not universal.</p>
+<ul>
+<li><strong>我想买两张票。</strong> I’d like to buy two tickets.</li>
+<li><strong>这本书比那本便宜。</strong> This book is cheaper than that
+one. (The second 书 is understood.)</li>
+</ul>
+<p><strong>Pitfall:</strong> use 两 before most classifiers for “two”:
+<strong>两个人</strong>, two people. 二 is used in counting, ordinal
+numbers, and numbers such as 十二. <strong>第二次</strong> means the
+second time; <strong>两次</strong> means twice. Useful familiar
+classifiers include 本 for books, 张 for tickets or flat items, 件 for
+matters or pieces of clothing, and 次 for occurrences.</p>
+<h2 id="keep-的-地-and-得-separate">Keep 的, 地, and 得 separate</h2>
+<p>They are usually pronounced neutral <strong>de</strong> in these
+grammatical uses, but they attach different things.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Form</th>
+<th>Job</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description + 的 + noun</td>
+<td>Identify or describe a thing</td>
+<td><strong>清楚的解释</strong>: a clear explanation</td>
+</tr>
+<tr>
+<td>Manner + 地 + verb</td>
+<td>Describe how an action is performed</td>
+<td><strong>耐心地解释</strong>: explain patiently</td>
+</tr>
+<tr>
+<td>Verb + 得 + description</td>
+<td>Evaluate or describe an action</td>
+<td><strong>解释得很清楚</strong>: explain very clearly</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>她认真地检查了合同。</strong> She carefully checked the
+contract.</li>
+<li><strong>她解释得很清楚，我听懂了。</strong> She explained clearly,
+and I understood.</li>
+</ul>
+<p><strong>Pitfall:</strong> 得 is not a general substitute for 的. It
+follows the verb or adjective being expanded, not its object. See
+Complements for <strong>中文说得很好</strong> and for the separate
+potential use in <strong>听得懂</strong>. 地 is often omitted in simple
+spoken manner phrases; its absence is not automatically an error.</p>
+<h1 id="questions-and-negation">Questions and negation</h1>
+<h2 id="ask-without-moving-the-question-word">Ask without moving the
+question word</h2>
+<p><strong>Patterns:</strong> statement + 吗; V-not-V; question word in
+the position of the missing answer. Use 还是 for alternatives in a
+question and 或者 for alternatives in a statement.</p>
+<ul>
+<li><strong>你把钥匙放在哪儿了？</strong> Where did you put the keys?
+Compare the answer: <strong>我把钥匙放在桌上了。</strong> I put them on
+the table.</li>
+<li><strong>你想今天去还是明天去？</strong> Would you like to go today
+or tomorrow? <strong>今天或者明天都可以。</strong> Either today or
+tomorrow works.</li>
+</ul>
+<p><strong>Pitfall:</strong> do not front-load 什么 or 谁 by copying
+English question order. A neutral information question such as
+<strong>你想吃什么？</strong> (What do you want to eat?) does not add
+吗. Likewise, choose <strong>你去不去？</strong> or
+<strong>你去吗？</strong>, rather than combining both neutral question
+formats.</p>
+<p><strong>为什么</strong> asks why; <strong>怎么</strong> asks how, and
+can also express surprise or ask why: <strong>你怎么没来？</strong> How
+come you didn’t come? <strong>呢</strong> can return the question to
+another topic: <strong>我明天去。你呢？</strong> I’m going tomorrow.
+What about you?</p>
+<h2 id="不-and-没-deny-different-things">不 and 没 deny different
+things</h2>
+<p><strong>Default:</strong> 不 denies a habit, state, intention, or
+prediction; 没(有) denies occurrence or realization up to a reference
+time. 没有 is also the negative of 有.</p>
+<ul>
+<li><strong>我平时不喝咖啡，但昨天喝了。</strong> I don’t usually drink
+coffee, but I did yesterday.</li>
+<li><strong>我今天还没喝咖啡。</strong> I haven’t had coffee yet
+today.</li>
+</ul>
+<p><strong>Pitfall:</strong> these are not simply present versus past
+negatives. <strong>他昨天不想出门。</strong> He didn’t want to go out
+yesterday. The desire is negated with 不 despite the past time. For an
+event that did not happen, say <strong>没买</strong>, not 没买了 with
+completed-event 了. Other sentence-final uses of 了 are a separate
+issue.</p>
+<p>Use <strong>别 + V</strong> for “don’t”: <strong>别着急。</strong>
+Don’t worry / don’t rush. <strong>别忘了带钥匙。</strong> Don’t forget
+to bring the keys. This fixed reminder also shows why “a negative can
+never appear with 了” would be a bad rule.</p>
+<h2 id="scope-what-exactly-does-the-negative-cover">Scope: what exactly
+does the negative cover?</h2>
+<p><strong>Contrasts:</strong> 不都 = not all; 都不 = all not / none.
+不一定 = not necessarily; 一定不 = definitely not.</p>
+<ul>
+<li><strong>他们不都住在北京。</strong> Not all of them live in Beijing.
+<strong>他们都不住在北京。</strong> None of them live in Beijing.</li>
+<li><strong>他不一定来。</strong> He may or may not come.
+<strong>他一定不来。</strong> He definitely won’t come.</li>
+</ul>
+<p><strong>Pitfall:</strong> recognizing every word is insufficient if
+you flatten their order. Read adverbs as operators over the phrase that
+follows. In <strong>我也不去</strong> (I’m not going either), 也 adds
+another person to a negative claim; <strong>我不再去</strong> (I won’t
+go anymore) negates further repetition.</p>
+<p>Question words can lose their question meaning in a construction such
+as <strong>谁都知道。</strong> Everyone knows.
+<strong>我什么都没买。</strong> I didn’t buy anything. With negation and
+都, do not translate 什么 mechanically as a question.</p>
+<h1 id="time-and-aspect">Time and aspect</h1>
+<p>Time expressions say <strong>when</strong>. Aspect presents an event
+as realized, experienced, ongoing, or a maintained state. Chinese does
+not require every clause to carry an aspect particle. Context often
+supplies the time.</p>
+<h2 id="verb-了-present-an-event-as-realized">Verb 了: present an event
+as realized</h2>
+<p><strong>Pattern:</strong> V + 了 + O, often with a quantity or other
+specification of the object. Perfective 了 views the event as a bounded
+occurrence; it does not by itself mean the entire task reached its
+intended endpoint.</p>
+<ul>
+<li><strong>我昨天看了三页。</strong> I read three pages yesterday.</li>
+<li><strong>明天吃了早饭再出门。</strong> Tomorrow, go out after having
+breakfast.</li>
+</ul>
+<p><strong>Pitfall:</strong> 了 is not an English past-tense ending. The
+second example places the event in the future. And
+<strong>我看了那本书，但是没看完。</strong> I read that book, but didn’t
+finish it. To state completion of the whole reading task, use 完.</p>
+<p>For a neutral denial of the event: <strong>我没看那本书。</strong> I
+didn’t read that book. For a question: <strong>你看了没有？</strong> Did
+you read it? Bare <strong>我买了书</strong> can sound like part of a
+longer account; a specified object or further context often makes the
+message more complete.</p>
+<h2 id="sentence-final-了-update-the-situation">Sentence-final 了:
+update the situation</h2>
+<p><strong>Pattern:</strong> clause + 了. It signals a changed situation
+or a newly relevant state. At the end of a short sentence, the event and
+situation-update readings can overlap; not every 了 can be classified by
+position alone.</p>
+<ul>
+<li><strong>现在不下雨了。</strong> It’s not raining anymore.</li>
+<li><strong>我不去了。</strong> I’m not going after all / anymore.</li>
+</ul>
+<p><strong>Pitfall:</strong> compare <strong>我没去</strong> (I didn’t
+go) with <strong>我不去了</strong> (I’ve changed my plan / won’t go
+now). The latter is an update about the situation, not a completed
+negative action.</p>
+<p><strong>我饿了。</strong> I’m hungry now. No completed action needs
+to be imagined. <strong>快下雨了。</strong> It’s going to rain soon.
+Again, nothing has happened yet.</p>
+<h2 id="过-experience-rather-than-an-event-report">过: experience,
+rather than an event report</h2>
+<p><strong>Pattern:</strong> V + 过 + O; negative 没(有) + V + 过 + O.
+过 presents an experience before the relevant reference time, often at
+least once.</p>
+<ul>
+<li><strong>我去过成都，但没去过重庆。</strong> I’ve been to Chengdu,
+but not Chongqing.</li>
+<li><strong>这道菜我以前吃过。</strong> I’ve had this dish before.</li>
+</ul>
+<p><strong>Pitfall:</strong> <strong>昨天我去了成都</strong> reports a
+particular trip yesterday; <strong>我去过成都</strong> foregrounds
+having that experience. English “have” does not automatically call for
+过: “I’ve lost my keys” would ordinarily be
+<strong>我的钥匙丢了</strong>, an event/current problem, rather than a
+claim about prior experience.</p>
+<h2 id="在-and-着-ongoing-action-versus-maintained-state">在 and 着:
+ongoing action versus maintained state</h2>
+<p><strong>Patterns:</strong> 在/正在 + V for action in progress; V + 着
+for a maintained state or accompanying action. 着 is
+<strong>zhe</strong> here, not the <strong>zháo</strong> in 睡着 (fall
+asleep).</p>
+<ul>
+<li><strong>她正在开门。门开着呢。</strong> She’s opening the door. The
+door is open.</li>
+<li><strong>他戴着耳机工作。</strong> He’s working with headphones
+on.</li>
+</ul>
+<p><strong>Pitfall:</strong> <strong>开着</strong> describes the open
+state in this context, not the motion of opening. Do not add 在 to every
+English “-ing”: adjective states and activities that Chinese presents
+differently need their own constructions. <strong>我知道</strong> means
+“I know”; it is not normally 正在知道.</p>
+<p><strong>我在看书呢。</strong> I’m reading. 呢 can support an
+ongoing-scene reading, but it has other conversational uses too; it is
+not a universal progressive ending.</p>
+<h2 id="duration-frequency-and-still-continuing">Duration, frequency,
+and “still continuing”</h2>
+<p><strong>Defaults:</strong> time-when before the action; duration
+generally after the verb; occurrence counts use 次. With an object, a
+repeated verb is often a clear way to attach duration.</p>
+<ul>
+<li><strong>我昨天看书看了两个小时。</strong> I read for two hours
+yesterday.</li>
+<li><strong>我学中文学了三年了。</strong> I’ve been studying Chinese for
+three years now.</li>
+</ul>
+<p><strong>Pitfall:</strong> distinguish <strong>三年前</strong> (three
+years ago), <strong>三年</strong> (for three years), and
+<strong>三次</strong> (three times). In the second example, final 了
+helps present the accumulated duration as continuing to now. Compare
+<strong>我以前学过三年中文。</strong> I previously studied Chinese for
+three years. Do not mechanically apply English present-perfect
+forms.</p>
+<p><strong>等了十分钟</strong> means waited ten minutes;
+<strong>十分钟以后再来</strong> means come again after ten minutes. If
+duration placement becomes awkward, simplify the sentence before adding
+objects and extra modifiers.</p>
+<h1 id="complements">Complements</h1>
+<p>Treat the verb and what follows it as a package. This is often the
+missing step when all the individual words are familiar but the sentence
+remains hard to parse.</p>
+<h2 id="result-what-did-the-action-achieve">Result: what did the action
+achieve?</h2>
+<p><strong>Pattern:</strong> V + result, optionally followed by 了 and
+an object. Common results: 完 finished, 懂 understood, 到
+reached/obtained, 见 perceived, 好 ready/satisfactorily done, 错
+wrong.</p>
+<ul>
+<li><strong>我听见了，但没听懂。</strong> I heard it, but didn’t
+understand.</li>
+<li><strong>我把地址写错了。</strong> I wrote the address
+incorrectly.</li>
+</ul>
+<p><strong>Pitfall:</strong> <strong>听</strong> means listen;
+<strong>听见</strong> means hear; <strong>听懂</strong> means understand
+what one hears. An action and a successful result are different claims.
+<strong>找了很久，还是没找到。</strong> I looked for a long time and
+still didn’t find it.</p>
+<p>完 gives an endpoint, whereas 好 often suggests readiness or
+satisfactory completion: <strong>饭做好了。</strong> The meal is ready.
+A result complement does not itself locate the event in the past:
+<strong>看完再告诉我。</strong> Tell me after you finish reading.</p>
+<h2 id="potential-can-the-result-be-achieved">Potential: can the result
+be achieved?</h2>
+<p><strong>Pattern:</strong> V + 得 / 不 + result or directional
+complement. This often describes practical possibility under the
+circumstances. The negative is inside the package.</p>
+<ul>
+<li><strong>你说慢一点儿，我就听得懂。</strong> If you speak a little
+more slowly, I can understand.</li>
+<li><strong>这个箱子太大，放不进去。</strong> This box is too big; it
+won’t fit inside.</li>
+</ul>
+<p><strong>Pitfall:</strong> <strong>没听懂</strong> says understanding
+did not happen; <strong>听不懂</strong> says the speech is beyond what
+the listener can understand in that context. <strong>不能听</strong>
+instead says listening is not possible or not allowed, depending on
+context. It does not specifically identify failure to understand.</p>
+<p><strong>今天做不完。</strong> It can’t all be finished today. Compare
+<strong>今天不做完</strong>: not finishing it today, for example as a
+choice in a suitable context. Moving 不 changes what is denied.</p>
+<h2 id="degree-and-manner-how-well-how-far-with-what-effect">Degree and
+manner: how well, how far, with what effect?</h2>
+<p><strong>Pattern:</strong> V + 得 + description; adjective + 得 +
+consequence. If the verb has an object, move the object earlier or
+repeat the verb.</p>
+<ul>
+<li><strong>她中文说得很流利。</strong> She speaks Chinese fluently.
+Also: <strong>她说中文说得很流利。</strong></li>
+<li><strong>我累得不想说话。</strong> I’m so tired I don’t want to
+talk.</li>
+</ul>
+<p><strong>Pitfall:</strong> don’t leave the object between the verb and
+得: for “speaks Chinese well,” use <strong>中文说得很好</strong> or
+<strong>说中文说得很好</strong>. To deny the quality, say
+<strong>说得不好</strong>, not 不说得好. <strong>不说</strong> would
+deny speaking.</p>
+<p>The 得 in <strong>听得懂</strong> marks potential, while
+<strong>说得很清楚</strong> evaluates clarity. Some short forms, such as
+<strong>做得好</strong>, can depend on context. Longer descriptive
+phrases and the corresponding negative often reveal the construction:
+<strong>做得不好</strong> evaluates quality; <strong>做不好</strong> can
+express inability to achieve a good result.</p>
+<h2 id="direction-movement-relative-to-a-viewpoint">Direction: movement
+relative to a viewpoint</h2>
+<p><strong>Pattern:</strong> V + direction + 来/去. 来 moves toward the
+contextual viewpoint; 去 moves away. Frequent combinations include
+进来/进去, 出来/出去, 回来/回去, 上来/上去, 下来/下去.</p>
+<ul>
+<li><strong>外面太冷了，快进来。</strong> It’s too cold outside; come
+in.</li>
+<li><strong>请把这把椅子搬出去。</strong> Please move this chair
+out.</li>
+</ul>
+<p><strong>Pitfall:</strong> “in” alone does not choose 来 versus 去;
+viewpoint matters. With a place object, the place normally comes before
+the final 来/去: <strong>走进教室来</strong>, walk into the classroom
+toward the viewpoint. Object placement with these complements has
+several patterns; the 把 construction is often a practical way to avoid
+a crowded verb phrase.</p>
+<p>Direction also extends beyond physical movement:
+<strong>想起来了</strong> means remembered; <strong>继续说下去</strong>
+means keep speaking. Learn these as meaning-bearing chunks rather than
+translating each character literally.</p>
+<h1 id="moving-the-object">Moving the object</h1>
+<h2 id="把-foreground-what-happens-to-a-particular-thing">把: foreground
+what happens to a particular thing</h2>
+<p><strong>Pattern:</strong> S + (negation / modal) + 把 + identifiable
+O + V + result / destination / other elaboration. Use it to track an
+affected object and what is done to it.</p>
+<ul>
+<li><strong>请把地址发给我。</strong> Please send me the address.</li>
+<li><strong>我没把那份报告看完。</strong> I didn’t finish reading that
+report.</li>
+</ul>
+<p><strong>Pitfall:</strong> 把 is not a generic object marker for every
+transitive sentence. A safe production strategy is a known/specified
+object and a concrete outcome. <strong>把门关上</strong> (close the
+door) and <strong>把书放在桌上</strong> (put the book on the table) are
+useful packages. Verbs such as 喜欢 do not ordinarily describe this kind
+of handling: <strong>我喜欢这本书。</strong> I like this book.</p>
+<p>Place the relevant negation or modal before 把:
+<strong>别把手机忘在车里。</strong> Don’t leave your phone in the car. A
+bare verb after the object often feels incomplete; tell the listener
+what happens to it. This is a default, not a claim that result
+complements are the only possible continuation.</p>
+<h2 id="被-foreground-the-affected-participant">被: foreground the
+affected participant</h2>
+<p><strong>Pattern:</strong> affected S + 被 + (agent) + V + result /
+elaboration. The agent may be omitted. Common in adverse events, but not
+limited to them.</p>
+<ul>
+<li><strong>我的自行车被人偷走了。</strong> My bicycle was stolen.</li>
+<li><strong>这个问题已经被解决了。</strong> This problem has already
+been solved.</li>
+</ul>
+<p><strong>Pitfall:</strong> do not turn every English passive into 被.
+Chinese can often leave an agent unexpressed without a passive marker:
+<strong>票买好了。</strong> The tickets have been bought / are all
+sorted. Use 被 when the affected participant and what happened to it
+deserve attention.</p>
+<p>For a negative: <strong>门没被锁上。</strong> The door wasn’t locked.
+Recognize conversational passives with 让 or 叫 too, but remember that
+those words also mean let/make and call. Context must decide.</p>
+<h1 id="comparisons-and-modals">Comparisons and modals</h1>
+<h2 id="compare-along-a-stated-dimension">Compare along a stated
+dimension</h2>
+<p><strong>Patterns:</strong> A + 比 + B + adjective; A + 没有 + B +
+adjective; A + 跟 + B + 一样 + adjective. Put an exact difference after
+the adjective.</p>
+<ul>
+<li><strong>这条路比那条近两公里。</strong> This route is two kilometers
+shorter than that one.</li>
+<li><strong>今天没有昨天那么冷。</strong> Today isn’t as cold as
+yesterday. <strong>这间房跟那间一样大。</strong> This room is as big as
+that one.</li>
+</ul>
+<p><strong>Pitfall:</strong> use <strong>比以前好得多</strong> (much
+better than before), not 比以前很好 for the ordinary comparative.
+<strong>不比</strong> denies being more; <strong>没有</strong> states
+falling short: <strong>他不比我高</strong> says he isn’t taller than me,
+allowing equal height; <strong>他没有我高</strong> says he isn’t as tall
+as me.</p>
+<p><strong>越来越 + adjective</strong> expresses change over time:
+<strong>天气越来越热。</strong> The weather is getting hotter.
+<strong>越 A 越 B</strong> links two changing quantities:
+<strong>越练越熟。</strong> The more you practice, the more familiar it
+becomes.</p>
+<h2 id="会-能-可以-想-要-choose-the-relationship">会, 能, 可以, 想, 要:
+choose the relationship</h2>
+<p><strong>Default meanings:</strong> 会 learned ability or prediction;
+能 ability/possibility under circumstances; 可以 permission or
+acceptable possibility; 想 desire/intention; 要 want, intend, require,
+or an imminent development, depending on context.</p>
+<ul>
+<li><strong>我会开车，但今天太累，不能开。</strong> I can drive, but I’m
+too tired to drive today.</li>
+<li><strong>这里可以停车吗？我想停十分钟。</strong> Is parking allowed
+here? I’d like to park for ten minutes.</li>
+</ul>
+<p><strong>Pitfall:</strong> these overlap, but they are not
+interchangeable translations of “can” and “will.”
+<strong>他会来的。</strong> He’ll come (a confident prediction).
+<strong>他要来了。</strong> He’s about to come.
+<strong>我不会游泳。</strong> I don’t know how to swim.
+<strong>我不能游泳。</strong> I can’t swim in the present circumstances
+/ am not allowed to.</p>
+<p>For “don’t need to,” use <strong>不用</strong> or
+<strong>不必</strong>: <strong>你不用等我。</strong> You don’t need to
+wait for me. <strong>不要等我</strong> is an instruction not to wait,
+not a statement that waiting is unnecessary. <strong>应该</strong> means
+should: <strong>你应该早点休息。</strong> You should get some rest
+earlier.</p>
+<h1 id="connectors-and-conversational-framing">Connectors and
+conversational framing</h1>
+<h2 id="就-and-才-timing-thresholds-and-expectations">就 and 才: timing,
+thresholds, and expectations</h2>
+<p><strong>Patterns:</strong> time / condition + 就 + action; time /
+condition + 才 + action. 就 often suggests promptness, sufficiency, or
+“then”; 才 often marks a late threshold or “only then.” Their other uses
+depend on construction.</p>
+<ul>
+<li><strong>他七点就到了，我九点才到。</strong> He arrived as early as
+seven; I didn’t arrive until nine.</li>
+<li><strong>十分钟就够了。</strong> Ten minutes is enough.
+<strong>我才等了十分钟。</strong> I’ve only waited ten minutes.</li>
+</ul>
+<p><strong>Pitfall:</strong> 才 does not always mean “late” or “a large
+amount.” With a small quantity it can mean “only,” as in the second
+example. Do not assign either character one English translation. Read
+the time, condition, or quantity it comments on.</p>
+<p><strong>一到家就给我打电话。</strong> Call me as soon as you get
+home. Here 一…就… links an immediate sequence; it is not a count of one
+phone call.</p>
+<h2 id="又-再-还-已经-orient-the-event">又, 再, 还, 已经: orient the
+event</h2>
+<p><strong>Defaults:</strong> 又 repeats an occurrence; 再 proposes or
+projects repetition / a later next step; 还 means still or additionally;
+已经 means already.</p>
+<ul>
+<li><strong>他昨天又迟到了。明天别再迟到了。</strong> He was late again
+yesterday. Don’t be late again tomorrow.</li>
+<li><strong>我已经吃过了，但她还没吃。</strong> I’ve already eaten, but
+she hasn’t eaten yet.</li>
+</ul>
+<p><strong>Pitfall:</strong> 又 and 再 are not fixed past and future
+tense markers. <strong>明天又是星期一。</strong> Tomorrow it’s Monday
+again. It presents a recurring situation even though it is future. Use
+construction and perspective, rather than an English tense rule.</p>
+<p><strong>先吃饭，再讨论。</strong> Eat first, then discuss it. 再 here
+orders a next step. <strong>还要一杯水。</strong> I’d also like another
+glass of water. 还 is hái in these uses; huán means return/give back in
+a different lexical use.</p>
+<h2 id="connect-the-logic-of-clauses">Connect the logic of clauses</h2>
+<p><strong>Useful pairs:</strong> 因为…所以… because/therefore;
+虽然…但是… although/but; 如果/要是…就… if/then; 只要…就… provided/then;
+只有…才… only if/only then.</p>
+<ul>
+<li><strong>虽然很忙，但是我还是想去。</strong> Although I’m busy, I
+still want to go.</li>
+<li><strong>只要有时间，我就去。只有周末，我才有时间。</strong> If I
+have time, I’ll go. Only on weekends do I have time.</li>
+</ul>
+<p><strong>Pitfall:</strong> unlike standard English “although … but …,”
+Chinese commonly allows both halves of these pairs. Either half can also
+be omitted when the relation is clear. Do not confuse
+<strong>只要</strong>, a sufficient condition in the intended situation,
+with <strong>只有</strong>, a necessary condition.</p>
+<p>For ordinary sentences, connect nouns with 和/跟, and clauses with an
+appropriate connector or a pause:
+<strong>我买了菜，然后回家做饭。</strong> I bought groceries, then went
+home to cook. Do not use 和 as the default English “and” between full
+clauses. <strong>一边做饭一边听播客。</strong> Cook while listening to a
+podcast: two simultaneous activities.</p>
+<h2 id="是的-focus-on-a-detail">是…的: focus on a detail</h2>
+<p><strong>Pattern:</strong> S + 是 + focused time / place / manner /
+agent detail + V + 的. A major use highlights details of an event
+treated as established in the conversation. 是 is often omitted in
+affirmative speech.</p>
+<ul>
+<li><strong>我是去年搬来的。</strong> It was last year that I moved
+here.</li>
+<li><strong>这张照片是我朋友拍的。</strong> This photo was taken by my
+friend. (Focus on who took it.)</li>
+</ul>
+<p><strong>Pitfall:</strong> this construction is not a replacement for
+past tense. <strong>我去年搬来了</strong> reports the move;
+<strong>我是去年搬来的</strong> highlights when. Other 是…的 sentences
+can make emphatic assertions and need not be past events:
+<strong>他是会来的。</strong> He really will come. Use the detail-focus
+pattern first; do not force every occurrence into it.</p>
+<h2 id="small-forms-that-make-speech-usable">Small forms that make
+speech usable</h2>
+<p><strong>Patterns:</strong> V + 一下 or verb reduplication for a
+brief/limited action; 吧 for suggestions or softened directives; 呢 for
+a continuing topic or scene. These affect conversational stance as well
+as literal content.</p>
+<ul>
+<li><strong>你看一下这个地址，对不对？</strong> Take a quick look at
+this address. Is it right?</li>
+<li><strong>我们先坐下聊聊吧。</strong> Let’s sit down and chat for a
+bit first.</li>
+</ul>
+<p><strong>Pitfall:</strong> particles do not automatically make every
+demand polite. Relationship, intonation, and wording still matter.
+<strong>给我看看。</strong> Let me have a look. This can be ordinary
+among friends, but a more considerate request to a stranger is
+<strong>可以让我看一下吗？</strong> Could you let me take a quick
+look?</p>
+<h2 id="contextual-pronunciation-worth-recognizing">Contextual
+pronunciation worth recognizing</h2>
+<p>No tone drills are needed here. Keep just these connections between
+spelling and function in mind:</p>
+<ul>
+<li><strong>不</strong> is normally bù, but becomes bú before a
+fourth-tone syllable in connected speech: <strong>不是</strong> bú shì.
+<strong>一</strong> changes in many connected contexts:
+<strong>一天</strong> yì tiān; <strong>一个</strong> yí ge (个 is
+commonly neutral here, with an underlying fourth tone). Counting and
+ordinal uses often retain yī. Pinyin in dictionaries may show underlying
+tones.</li>
+<li><strong>了</strong> is neutral le as the particle, but liǎo in forms
+such as <strong>了解</strong> liǎojiě (understand) and
+<strong>受不了</strong> shòu bu liǎo (can’t stand it).
+<strong>得</strong> is neutral de in complements, děi in
+<strong>我得走了</strong> (I have to go), and dé in
+<strong>得到</strong> (obtain).</li>
+</ul>
+<p><strong>Pitfall:</strong> a familiar character does not guarantee the
+same grammatical role or reading. Third-tone changes and neutral-tone
+patterns still occur normally; they are outside this grammar review’s
+teaching scope.</p>
+<h1 id="apply-it">Apply it</h1>
+<h2 id="task-1-parse-before-translating">Task 1: parse before
+translating</h2>
+<p>Spend five to ten minutes on this paragraph. Bracket the long noun
+phrase, identify the main predicates, and label the result, potential,
+and 把 constructions. Then give an idiomatic English translation.</p>
+<p><strong>我昨天在地铁上看的那篇文章，你看完了吗？我看了两遍，还是有几句看不懂。你要是有时间，就把最难的那一段给我解释一下吧。</strong></p>
+<p>Success means you can explain what the speaker read, what remains
+difficult, and what help they request. Merely replacing each word with
+English is not enough.</p>
+<h2 id="task-2-recover-a-useful-message">Task 2: recover a useful
+message</h2>
+<p>Write or say a six-to-eight-sentence message to a friend. You planned
+to meet tonight, worked longer than expected, have not finished a
+report, and propose meeting tomorrow instead. Include:</p>
+<ul>
+<li>A contrast between the original plan and the updated situation.</li>
+<li>An unachieved result, not just a negated action.</li>
+<li>A conditional proposal.</li>
+<li>A request to send you the address, and a statement about what to do
+on arrival.</li>
+</ul>
+<p>Spend ten minutes, then compare with the model. Different wording is
+welcome. Check whether a listener could reconstruct your plan, the
+obstacle, and the requested next steps. If not, repair those
+relationships before polishing vocabulary.</p>
+<h1 id="answer-key">Answer key</h1>
+<h2 id="diagnostic">Diagnostic</h2>
+<ol type="1">
+<li><strong>[我昨天在地铁上看的]那篇文章 / 很有意思。</strong> Main
+claim: that article is interesting. The bracket means “that I read on
+the subway yesterday”; it modifies 文章. 我 is the subject inside the
+modifier, not the subject of 很有意思. Translate: “The article I read on
+the subway yesterday is interesting.”</li>
+<li><strong>我没去</strong>: I didn’t go / haven’t gone. It denies the
+occurrence. <strong>我不去了</strong>: I’m not going after all /
+anymore. It updates the plan or situation.</li>
+<li><strong>我看了那份报告</strong>: I read that report; it does not by
+itself guarantee I finished it. <strong>我看完了那份报告</strong>: I
+finished reading it. <strong>我看不懂那份报告</strong>: I can’t
+understand the report. The final two use result and potential
+complements, respectively.</li>
+<li><strong>请把地址发给我。</strong> 请 softens the request; 把
+introduces the identifiable address; 发给我 states the transfer to
+me.</li>
+<li><strong>他们不都去</strong>: not all of them are going.
+<strong>他们都不去</strong>: none of them are going. In this context, 不
+before 都 denies the universal claim; 都 before 不 distributes the
+negative across everyone.</li>
+</ol>
+<h2 id="task-1-model">Task 1 model</h2>
+<p><strong>[我昨天在地铁上看的]那篇文章，你看完了吗？</strong> The
+bracket modifies 文章, and the entire article phrase is the topic. Main
+clause: 你看完了吗？ <strong>看完</strong> is read + finish.</p>
+<p><strong>我看了两遍，还是有几句看不懂。</strong> The speaker read it
+twice; 遍 counts complete passes through material.
+<strong>看不懂</strong> is inability to understand;
+<strong>有几句</strong> introduces the few sentences that remain
+problematic. Reading through something and understanding it are separate
+outcomes.</p>
+<p><strong>你要是有时间，就把最难的那一段给我解释一下吧。</strong>
+要是…就… gives a condition and requested response. 把 marks the
+particular paragraph to be explained. <strong>给我</strong> identifies
+the person receiving the explanation. 一下 limits the request, and 吧
+softens it.</p>
+<p>“Have you finished the article I was reading on the subway yesterday?
+I’ve read it twice, but there are still a few sentences I can’t
+understand. If you have time, could you explain the hardest paragraph to
+me?”</p>
+<h2 id="task-2-model">Task 2 model</h2>
+<p><strong>我们本来约好今晚见面。可是我今天加班，九点才下班。报告还没写完。我今晚去不了了。要是你明天有时间，我们就明天见吧。请把地址发给我。我到了以后就给你打电话。</strong></p>
+<p>“We originally agreed to meet tonight. But I worked overtime today
+and didn’t get off work until nine. The report still isn’t finished. I
+can’t make it tonight after all. If you have time tomorrow, let’s meet
+tomorrow. Please send me the address. I’ll call you once I arrive.”</p>
+<p>Notice <strong>才</strong> marking a late time,
+<strong>没写完</strong> denying an achieved result,
+<strong>去不了</strong> describing inability to go, and final
+<strong>了</strong> updating the situation. <strong>到了以后</strong>
+establishes arrival as the condition for the later call; it does not
+make the call a past event.</p>
+<h1 id="quick-reference">Quick reference</h1>
+<h2 id="a-parsing-routine">A parsing routine</h2>
+<ol type="1">
+<li>Find the main predicate. Does it say identity (是), description
+(adjective), existence (有), location (在), or an action?</li>
+<li>Bracket each long <strong>…的 + noun</strong> group. Find where the
+modifier ends before interpreting the main clause.</li>
+<li>Recover the topic, subject, and omitted objects from context.</li>
+<li>Read the full verb package: action + result/direction; potential
+得/不; descriptive 得; aspect particles.</li>
+<li>Check negation and adverb scope. Then connect clauses by time,
+condition, contrast, or cause.</li>
+</ol>
+<h2 id="choose-the-construction-by-the-message">Choose the construction
+by the message</h2>
+<table>
+<thead>
+<tr>
+<th>What you want to say</th>
+<th>Useful pattern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>An event happened</td>
+<td>V + 了; time comes from context</td>
+</tr>
+<tr>
+<td>A situation has changed</td>
+<td>Clause + 了</td>
+</tr>
+<tr>
+<td>Something did not happen</td>
+<td>没(有) + V</td>
+</tr>
+<tr>
+<td>Something is no longer the case</td>
+<td>不 + predicate + 了</td>
+</tr>
+<tr>
+<td>You have prior experience</td>
+<td>V + 过</td>
+</tr>
+<tr>
+<td>An action is in progress</td>
+<td>在/正在 + V</td>
+</tr>
+<tr>
+<td>A state is maintained</td>
+<td>V + 着</td>
+</tr>
+<tr>
+<td>An action achieved a result</td>
+<td>V + result</td>
+</tr>
+<tr>
+<td>A result cannot be achieved</td>
+<td>V + 不 + result</td>
+</tr>
+<tr>
+<td>You describe performance</td>
+<td>V + 得 + description</td>
+</tr>
+<tr>
+<td>A known object is handled</td>
+<td>把 + O + V + elaboration</td>
+</tr>
+<tr>
+<td>A participant is affected</td>
+<td>Affected S + 被 + (agent) + V…</td>
+</tr>
+<tr>
+<td>You identify a thing</td>
+<td>Modifier + 的 + noun</td>
+</tr>
+<tr>
+<td>You highlight an event detail</td>
+<td>是 + detail + V + 的</td>
+</tr>
+</tbody>
+</table>
+<h2 id="recover-by-producing-contrasts">Recover by producing
+contrasts</h2>
+<p>After reading, make one personal sentence for each pair: 不/没;
+了/过; 在/着; 没听懂/听不懂; 不都/都不; 就/才; 只要/只有. If the meaning
+changes as intended, move on. If not, return to that unit and say the
+examples in a new context.</p>
+<h1 id="sources-and-further-review">Sources and further review</h1>
+<p>This is an original teaching draft with original examples, not an
+adaptation of one textbook. The following teaching references were
+consulted to check selected distinctions and provide a route to fuller
+explanations. Language instruction benefits from a teacher’s judgment
+about context and naturalness; this draft has not yet received that
+review.</p>
+<ul>
+<li>University of Oxford, Centre for Teaching Chinese as a Foreign
+Language, <a href="https://www.ctcfl.ox.ac.uk/materials_lang-work_grammar-database_grammar-database-page/">grammar
+database index</a>. Further explanations of aspect, complements, word
+order, and related constructions.</li>
+<li>Oxford CTCFL, <a href="https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_verb-de/">the
+得 construction</a>: descriptive complements and placement of verb
+objects; <a href="https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_ba/">the 把
+construction</a>: affected objects and elaborated verb phrases; <a href="https://www.ctcfl.ox.ac.uk/materials_grammar-exercises_comparatives/">comparatives</a>:
+比, 没有, and 一样.</li>
+<li>Cheng &amp; Tsui, <em>Integrated Chinese</em>, third edition, Level
+1 Part 1, <a href="https://www.cheng-tsui.com/sites/default/files/previews/IC%203e%201-1%20Textbook%20Web%20Sample%20L5_7.pdf">publisher’s
+lesson sample</a>, grammar discussion of 了: why it is not a past-tense
+marker, including future event sequences.</li>
+<li><a href="https://github.com/BYVoid/OpenCC">OpenCC project</a>: the
+tool used for the optional traditional-character edition. Automated
+script conversion does not establish regional usage or linguistic
+review.</li>
+</ul>
+<p>References checked 2026-11-09. Editorial next step: a Mandarin
+instructor or proficient native speaker should review example
+naturalness, the 了 contrasts, complement interpretations, and
+traditional conversion before the course is marked reviewed.</p>
+</body>
+</html>
